@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caue.suaextensao">
+
+    <application>
+        <receiver android:name=".SuaExtensao"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.caue.suaextensao.ACTION_RUN" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
